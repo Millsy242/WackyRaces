@@ -1,0 +1,6 @@
+//c++ reads from second line
+ArmySurplusSpecial
+Sergeant Blast
+10
+200
+6

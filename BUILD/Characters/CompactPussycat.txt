@@ -1,0 +1,6 @@
+//c++ reads from second line
+//CompactPussycat
+Penelope Pitstop
+9
+200
+5

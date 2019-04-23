@@ -3,11 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0BC2B0C8226F81E60025E0FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B0C7226F81E60025E0FB /* main.cpp */; };
+		0BC2B0D4226F82270025E0FB /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC2B0CF226F82270025E0FB /* libsfml-graphics.2.5.1.dylib */; };
+		0BC2B0D5226F82270025E0FB /* libsfml-network.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC2B0D0226F82270025E0FB /* libsfml-network.2.5.1.dylib */; };
+		0BC2B0D6226F82270025E0FB /* libsfml-audio.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC2B0D1226F82270025E0FB /* libsfml-audio.2.5.1.dylib */; };
+		0BC2B0D7226F82270025E0FB /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC2B0D2226F82270025E0FB /* libsfml-system.2.5.1.dylib */; };
+		0BC2B0D8226F82270025E0FB /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC2B0D3226F82270025E0FB /* libsfml-window.2.5.1.dylib */; };
+		0BC2B110226F84E80025E0FB /* ArmySurplusSpecial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B0F9226F84E60025E0FB /* ArmySurplusSpecial.cpp */; };
+		0BC2B111226F84E80025E0FB /* ArkansasChugabug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B0FA226F84E60025E0FB /* ArkansasChugabug.cpp */; };
+		0BC2B112226F84E80025E0FB /* Haybailer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B0FB226F84E70025E0FB /* Haybailer.cpp */; };
+		0BC2B113226F84E80025E0FB /* Buzzwagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B0FC226F84E70025E0FB /* Buzzwagon.cpp */; };
+		0BC2B114226F84E80025E0FB /* CompactPussycat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B101226F84E70025E0FB /* CompactPussycat.cpp */; };
+		0BC2B115226F84E80025E0FB /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B102226F84E70025E0FB /* Character.cpp */; };
+		0BC2B116226F84E80025E0FB /* Convert_a_Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B104226F84E70025E0FB /* Convert_a_Car.cpp */; };
+		0BC2B117226F84E80025E0FB /* MeanMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B107226F84E70025E0FB /* MeanMachine.cpp */; };
+		0BC2B118226F84E80025E0FB /* TurboTerrific.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B109226F84E70025E0FB /* TurboTerrific.cpp */; };
+		0BC2B119226F84E80025E0FB /* CreepyCoupe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B10C226F84E80025E0FB /* CreepyCoupe.cpp */; };
+		0BC2B11A226F84E80025E0FB /* BoulderMobile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B10D226F84E80025E0FB /* BoulderMobile.cpp */; };
+		0BC2B11B226F84E80025E0FB /* BulletproofBomb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B10F226F84E80025E0FB /* BulletproofBomb.cpp */; };
+		0BC2B122226F85420025E0FB /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2B120226F85420025E0FB /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +43,37 @@
 /* Begin PBXFileReference section */
 		0BC2B0C4226F81E60025E0FB /* Wacky Races v1 MAC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Wacky Races v1 MAC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC2B0C7226F81E60025E0FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BC2B0CF226F82270025E0FB /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "../../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		0BC2B0D0226F82270025E0FB /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "../../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-network.2.5.1.dylib"; sourceTree = "<group>"; };
+		0BC2B0D1226F82270025E0FB /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "../../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-audio.2.5.1.dylib"; sourceTree = "<group>"; };
+		0BC2B0D2226F82270025E0FB /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "../../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		0BC2B0D3226F82270025E0FB /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "../../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
+		0BC2B0F8226F84E60025E0FB /* ArkansasChugabug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArkansasChugabug.h; path = Characters/ArkansasChugabug.h; sourceTree = "<group>"; };
+		0BC2B0F9226F84E60025E0FB /* ArmySurplusSpecial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArmySurplusSpecial.cpp; path = Characters/ArmySurplusSpecial.cpp; sourceTree = "<group>"; };
+		0BC2B0FA226F84E60025E0FB /* ArkansasChugabug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArkansasChugabug.cpp; path = Characters/ArkansasChugabug.cpp; sourceTree = "<group>"; };
+		0BC2B0FB226F84E70025E0FB /* Haybailer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Haybailer.cpp; path = Characters/Haybailer.cpp; sourceTree = "<group>"; };
+		0BC2B0FC226F84E70025E0FB /* Buzzwagon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Buzzwagon.cpp; path = Characters/Buzzwagon.cpp; sourceTree = "<group>"; };
+		0BC2B0FD226F84E70025E0FB /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = Characters/Character.h; sourceTree = "<group>"; };
+		0BC2B0FE226F84E70025E0FB /* BulletproofBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletproofBomb.h; path = Characters/BulletproofBomb.h; sourceTree = "<group>"; };
+		0BC2B0FF226F84E70025E0FB /* Buzzwagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Buzzwagon.h; path = Characters/Buzzwagon.h; sourceTree = "<group>"; };
+		0BC2B100226F84E70025E0FB /* BoulderMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoulderMobile.h; path = Characters/BoulderMobile.h; sourceTree = "<group>"; };
+		0BC2B101226F84E70025E0FB /* CompactPussycat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CompactPussycat.cpp; path = Characters/CompactPussycat.cpp; sourceTree = "<group>"; };
+		0BC2B102226F84E70025E0FB /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Character.cpp; path = Characters/Character.cpp; sourceTree = "<group>"; };
+		0BC2B103226F84E70025E0FB /* ArmySurplusSpecial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmySurplusSpecial.h; path = Characters/ArmySurplusSpecial.h; sourceTree = "<group>"; };
+		0BC2B104226F84E70025E0FB /* Convert_a_Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Convert_a_Car.cpp; path = Characters/Convert_a_Car.cpp; sourceTree = "<group>"; };
+		0BC2B105226F84E70025E0FB /* Convert_a_Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Convert_a_Car.h; path = Characters/Convert_a_Car.h; sourceTree = "<group>"; };
+		0BC2B106226F84E70025E0FB /* CreepyCoupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreepyCoupe.h; path = Characters/CreepyCoupe.h; sourceTree = "<group>"; };
+		0BC2B107226F84E70025E0FB /* MeanMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeanMachine.cpp; path = Characters/MeanMachine.cpp; sourceTree = "<group>"; };
+		0BC2B108226F84E70025E0FB /* MeanMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeanMachine.h; path = Characters/MeanMachine.h; sourceTree = "<group>"; };
+		0BC2B109226F84E70025E0FB /* TurboTerrific.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TurboTerrific.cpp; path = Characters/TurboTerrific.cpp; sourceTree = "<group>"; };
+		0BC2B10A226F84E80025E0FB /* CompactPussycat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompactPussycat.h; path = Characters/CompactPussycat.h; sourceTree = "<group>"; };
+		0BC2B10B226F84E80025E0FB /* TurboTerrific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TurboTerrific.h; path = Characters/TurboTerrific.h; sourceTree = "<group>"; };
+		0BC2B10C226F84E80025E0FB /* CreepyCoupe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CreepyCoupe.cpp; path = Characters/CreepyCoupe.cpp; sourceTree = "<group>"; };
+		0BC2B10D226F84E80025E0FB /* BoulderMobile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BoulderMobile.cpp; path = Characters/BoulderMobile.cpp; sourceTree = "<group>"; };
+		0BC2B10E226F84E80025E0FB /* Haybailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haybailer.h; path = Characters/Haybailer.h; sourceTree = "<group>"; };
+		0BC2B10F226F84E80025E0FB /* BulletproofBomb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BulletproofBomb.cpp; path = Characters/BulletproofBomb.cpp; sourceTree = "<group>"; };
+		0BC2B120226F85420025E0FB /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = Game/Game.cpp; sourceTree = "<group>"; };
+		0BC2B121226F85420025E0FB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Game/Game.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +81,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC2B0D4226F82270025E0FB /* libsfml-graphics.2.5.1.dylib in Frameworks */,
+				0BC2B0D5226F82270025E0FB /* libsfml-network.2.5.1.dylib in Frameworks */,
+				0BC2B0D6226F82270025E0FB /* libsfml-audio.2.5.1.dylib in Frameworks */,
+				0BC2B0D7226F82270025E0FB /* libsfml-system.2.5.1.dylib in Frameworks */,
+				0BC2B0D8226F82270025E0FB /* libsfml-window.2.5.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +97,7 @@
 			children = (
 				0BC2B0C6226F81E60025E0FB /* Wacky Races v1 MAC */,
 				0BC2B0C5226F81E60025E0FB /* Products */,
+				0BC2B0CE226F82270025E0FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +112,47 @@
 		0BC2B0C6226F81E60025E0FB /* Wacky Races v1 MAC */ = {
 			isa = PBXGroup;
 			children = (
+				0BC2B120226F85420025E0FB /* Game.cpp */,
+				0BC2B121226F85420025E0FB /* Game.h */,
 				0BC2B0C7226F81E60025E0FB /* main.cpp */,
+				0BC2B0FA226F84E60025E0FB /* ArkansasChugabug.cpp */,
+				0BC2B0F8226F84E60025E0FB /* ArkansasChugabug.h */,
+				0BC2B0F9226F84E60025E0FB /* ArmySurplusSpecial.cpp */,
+				0BC2B103226F84E70025E0FB /* ArmySurplusSpecial.h */,
+				0BC2B10D226F84E80025E0FB /* BoulderMobile.cpp */,
+				0BC2B100226F84E70025E0FB /* BoulderMobile.h */,
+				0BC2B10F226F84E80025E0FB /* BulletproofBomb.cpp */,
+				0BC2B0FE226F84E70025E0FB /* BulletproofBomb.h */,
+				0BC2B0FC226F84E70025E0FB /* Buzzwagon.cpp */,
+				0BC2B0FF226F84E70025E0FB /* Buzzwagon.h */,
+				0BC2B102226F84E70025E0FB /* Character.cpp */,
+				0BC2B0FD226F84E70025E0FB /* Character.h */,
+				0BC2B101226F84E70025E0FB /* CompactPussycat.cpp */,
+				0BC2B10A226F84E80025E0FB /* CompactPussycat.h */,
+				0BC2B104226F84E70025E0FB /* Convert_a_Car.cpp */,
+				0BC2B105226F84E70025E0FB /* Convert_a_Car.h */,
+				0BC2B10C226F84E80025E0FB /* CreepyCoupe.cpp */,
+				0BC2B106226F84E70025E0FB /* CreepyCoupe.h */,
+				0BC2B0FB226F84E70025E0FB /* Haybailer.cpp */,
+				0BC2B10E226F84E80025E0FB /* Haybailer.h */,
+				0BC2B107226F84E70025E0FB /* MeanMachine.cpp */,
+				0BC2B108226F84E70025E0FB /* MeanMachine.h */,
+				0BC2B109226F84E70025E0FB /* TurboTerrific.cpp */,
+				0BC2B10B226F84E80025E0FB /* TurboTerrific.h */,
 			);
 			path = "Wacky Races v1 MAC";
+			sourceTree = "<group>";
+		};
+		0BC2B0CE226F82270025E0FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BC2B0D1226F82270025E0FB /* libsfml-audio.2.5.1.dylib */,
+				0BC2B0CF226F82270025E0FB /* libsfml-graphics.2.5.1.dylib */,
+				0BC2B0D0226F82270025E0FB /* libsfml-network.2.5.1.dylib */,
+				0BC2B0D2226F82270025E0FB /* libsfml-system.2.5.1.dylib */,
+				0BC2B0D3226F82270025E0FB /* libsfml-window.2.5.1.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +190,7 @@
 				};
 			};
 			buildConfigurationList = 0BC2B0BF226F81E60025E0FB /* Build configuration list for PBXProject "Wacky Races v1 MAC" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,7 +211,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC2B116226F84E80025E0FB /* Convert_a_Car.cpp in Sources */,
 				0BC2B0C8226F81E60025E0FB /* main.cpp in Sources */,
+				0BC2B119226F84E80025E0FB /* CreepyCoupe.cpp in Sources */,
+				0BC2B11B226F84E80025E0FB /* BulletproofBomb.cpp in Sources */,
+				0BC2B110226F84E80025E0FB /* ArmySurplusSpecial.cpp in Sources */,
+				0BC2B115226F84E80025E0FB /* Character.cpp in Sources */,
+				0BC2B111226F84E80025E0FB /* ArkansasChugabug.cpp in Sources */,
+				0BC2B114226F84E80025E0FB /* CompactPussycat.cpp in Sources */,
+				0BC2B118226F84E80025E0FB /* TurboTerrific.cpp in Sources */,
+				0BC2B113226F84E80025E0FB /* Buzzwagon.cpp in Sources */,
+				0BC2B117226F84E80025E0FB /* MeanMachine.cpp in Sources */,
+				0BC2B112226F84E80025E0FB /* Haybailer.cpp in Sources */,
+				0BC2B11A226F84E80025E0FB /* BoulderMobile.cpp in Sources */,
+				0BC2B122226F85420025E0FB /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +346,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/sfml/2.5.1/include,
+					"$(SRCROOT)/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.5.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +362,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/sfml/2.5.1/include,
+					"$(SRCROOT)/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.5.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

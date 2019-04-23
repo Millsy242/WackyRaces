@@ -1,0 +1,6 @@
+//c++ reads from second line
+//CreepyCoupe
+The Gruesome Twosome
+2
+200
+2

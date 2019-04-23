@@ -1,0 +1,6 @@
+//c++ reads from second line
+BulletproofBomb
+The Ant Hill Mob, in the Bulletproof Bomb
+3
+200
+7

@@ -1,0 +1,3 @@
+BulletproofBomb
+ uses Get-Away-Power 'Come on, make with the footwork!'
+ shifts into pogostick power

@@ -1,0 +1,7 @@
+//CreepyCoupe
+ shifts into Storm Power
+ shifts into Fire Power
+ shifts into Dragon Power
+ shifts into Horse Power
+ shifts into Circus Power
+ shifts into Dragon-Wheel-Power

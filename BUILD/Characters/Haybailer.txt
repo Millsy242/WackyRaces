@@ -1,0 +1,6 @@
+//c++ reads from second line
+//Haybailer
+The Red Max
+6
+200
+4

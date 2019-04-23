@@ -1,0 +1,6 @@
+//c++ reads from second line
+//MeanMachine
+Dick Dastardly in the Double 0
+8
+200
+00

@@ -2,6 +2,20 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Volumes/Data/GoogleDrive/Programming/Personal/Wacky Races/Wacky Races v1 MAC/Wacky Races v1 MAC/Game.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:/Volumes/Data/GoogleDrive/Programming/Personal/Wacky Races/Wacky Races v1 MAC/Wacky Races v1 MAC/Game.h">
+   </FileRef>
+   <Group
+      location = "group:"
+      name = "Characters">
+   </Group>
+   <Group
+      location = "group:/Volumes/Data/GoogleDrive/Programming/Personal/Wacky Races/Wacky Races v1 MAC/Wacky Races v1 MAC/Game"
+      name = "Game">
+   </Group>
+   <FileRef
       location = "self:Wacky Races v1 MAC.xcodeproj">
    </FileRef>
 </Workspace>
